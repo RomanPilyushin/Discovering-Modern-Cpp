@@ -14,7 +14,7 @@ void f(const int& x) { cout << "const int&\n"; }
 
 int main(int argc, char* argv[])
 {
-    int       i = 3;
+    int i = 3;
     const int ci = 4;
 
     f(3);
