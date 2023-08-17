@@ -1,11 +1,15 @@
+#define _USE_MATH_DEFINES
+
 #include <iostream>
 #include <iomanip>
+#include <math.h>
 
 
 int main(int argc, char* argv[])
 {
     using namespace std;
-    const double pi = 3.141592653589793238462643383279502884197;
+    //const double pi = 3.141592653589793238462643383279502884197;
+    const double pi = M_PI;
 
     setprecision(3);
 
