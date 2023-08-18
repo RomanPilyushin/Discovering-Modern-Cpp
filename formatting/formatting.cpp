@@ -11,7 +11,7 @@ int main(int argc, char* argv[])
     //const double pi = 3.141592653589793238462643383279502884197;
     const double pi = M_PI;
 
-    setprecision(3);
+    //setprecision(3);
 
     int old_precision = cout.precision();
     cout << "pi is " << pi << '\n';
