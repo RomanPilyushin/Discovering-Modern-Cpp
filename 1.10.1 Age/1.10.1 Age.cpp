@@ -7,7 +7,6 @@ void write_message(std::ostream& os, int i) { os << i << '\n'; }
 int main() 
 {
     std::cout << "What is your age?";
-
     std::cout << std::endl;
 
     int age;
