@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vector_unique_ptr", "vector
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "occi_old_style", "occi_old_style\occi_old_style.vcxproj", "{00049735-B631-46D7-BF13-F290430D3877}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "occi_resource_rescue", "occi_resource_rescue\occi_resource_rescue.vcxproj", "{7ECD8586-36FB-4512-B88A-726E9BA7E291}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{00049735-B631-46D7-BF13-F290430D3877}.Release|x64.Build.0 = Release|x64
 		{00049735-B631-46D7-BF13-F290430D3877}.Release|x86.ActiveCfg = Release|Win32
 		{00049735-B631-46D7-BF13-F290430D3877}.Release|x86.Build.0 = Release|Win32
+		{7ECD8586-36FB-4512-B88A-726E9BA7E291}.Debug|x64.ActiveCfg = Debug|x64
+		{7ECD8586-36FB-4512-B88A-726E9BA7E291}.Debug|x64.Build.0 = Debug|x64
+		{7ECD8586-36FB-4512-B88A-726E9BA7E291}.Debug|x86.ActiveCfg = Debug|Win32
+		{7ECD8586-36FB-4512-B88A-726E9BA7E291}.Debug|x86.Build.0 = Debug|Win32
+		{7ECD8586-36FB-4512-B88A-726E9BA7E291}.Release|x64.ActiveCfg = Release|x64
+		{7ECD8586-36FB-4512-B88A-726E9BA7E291}.Release|x64.Build.0 = Release|x64
+		{7ECD8586-36FB-4512-B88A-726E9BA7E291}.Release|x86.ActiveCfg = Release|Win32
+		{7ECD8586-36FB-4512-B88A-726E9BA7E291}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -128,6 +138,7 @@ Global
 		{605D1119-1A47-465A-90EA-11CE83CDCAD4} = {27EB04B9-7081-48FD-BB58-2A98A3753FFA}
 		{71385C84-85BE-4BA7-9ACD-74C0725B063F} = {27EB04B9-7081-48FD-BB58-2A98A3753FFA}
 		{00049735-B631-46D7-BF13-F290430D3877} = {27EB04B9-7081-48FD-BB58-2A98A3753FFA}
+		{7ECD8586-36FB-4512-B88A-726E9BA7E291} = {27EB04B9-7081-48FD-BB58-2A98A3753FFA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21091A9F-C3EC-4F36-A5B9-EC3FBC99FE74}
