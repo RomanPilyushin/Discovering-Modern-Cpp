@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vector_test", "vector_test\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vector_unique_ptr", "vector_unique_ptr\vector_unique_ptr.vcxproj", "{71385C84-85BE-4BA7-9ACD-74C0725B063F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "occi_old_style", "occi_old_style\occi_old_style.vcxproj", "{00049735-B631-46D7-BF13-F290430D3877}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{71385C84-85BE-4BA7-9ACD-74C0725B063F}.Release|x64.Build.0 = Release|x64
 		{71385C84-85BE-4BA7-9ACD-74C0725B063F}.Release|x86.ActiveCfg = Release|Win32
 		{71385C84-85BE-4BA7-9ACD-74C0725B063F}.Release|x86.Build.0 = Release|Win32
+		{00049735-B631-46D7-BF13-F290430D3877}.Debug|x64.ActiveCfg = Debug|x64
+		{00049735-B631-46D7-BF13-F290430D3877}.Debug|x64.Build.0 = Debug|x64
+		{00049735-B631-46D7-BF13-F290430D3877}.Debug|x86.ActiveCfg = Debug|Win32
+		{00049735-B631-46D7-BF13-F290430D3877}.Debug|x86.Build.0 = Debug|Win32
+		{00049735-B631-46D7-BF13-F290430D3877}.Release|x64.ActiveCfg = Release|x64
+		{00049735-B631-46D7-BF13-F290430D3877}.Release|x64.Build.0 = Release|x64
+		{00049735-B631-46D7-BF13-F290430D3877}.Release|x86.ActiveCfg = Release|Win32
+		{00049735-B631-46D7-BF13-F290430D3877}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -117,6 +127,7 @@ Global
 		{27EB04B9-7081-48FD-BB58-2A98A3753FFA} = {65A92761-0CA5-4C46-AC05-46219CE87298}
 		{605D1119-1A47-465A-90EA-11CE83CDCAD4} = {27EB04B9-7081-48FD-BB58-2A98A3753FFA}
 		{71385C84-85BE-4BA7-9ACD-74C0725B063F} = {27EB04B9-7081-48FD-BB58-2A98A3753FFA}
+		{00049735-B631-46D7-BF13-F290430D3877} = {27EB04B9-7081-48FD-BB58-2A98A3753FFA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21091A9F-C3EC-4F36-A5B9-EC3FBC99FE74}
