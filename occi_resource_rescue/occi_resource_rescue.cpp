@@ -81,7 +81,3 @@ int main(int argc, char** argv)
     while (rs->next())
         cout << rs->getString(1) << endl;
 }
-
-
-
-// Oracle queries, see c++03/occi_old_style.cpp
