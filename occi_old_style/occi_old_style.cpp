@@ -2,7 +2,7 @@
 #include <string>
 #include <occi.h>
 
-using namespace std;            // import names (@\sref{sec:namespaces}@)
+using namespace std;
 using namespace oracle::occi;
 
 int main()
