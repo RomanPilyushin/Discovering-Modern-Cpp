@@ -67,7 +67,8 @@ double dot(const vector& v, const vector& w)
     return s;
 }
 
-int main() {
+int main() 
+{
     vector v(4);
     v[0] = v[1] = 1.0; v[2] = 2.0; v[3] = -3.0;
     std::cout << v << std::endl;
