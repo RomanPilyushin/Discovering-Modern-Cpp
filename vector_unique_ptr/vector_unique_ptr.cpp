@@ -41,6 +41,7 @@ public:
         vector sum(my_size);
         for (int i = 0; i < my_size; ++i)
             sum[i] = (*this)[i] + that[i];
+        
         return sum;
     }
 
