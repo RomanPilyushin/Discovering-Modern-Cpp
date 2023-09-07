@@ -54,7 +54,8 @@ public:
 
     }
 
-    vector operator+(const vector& that) const {
+    vector operator+(const vector& that) const 
+    {
         assert(that.my_size == my_size);
         vector sum(my_size);
         for (int i = 0; i < my_size; ++i)
