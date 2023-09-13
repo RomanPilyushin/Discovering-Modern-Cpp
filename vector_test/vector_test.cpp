@@ -41,8 +41,7 @@ public:
     int size() const { return my_size; }
     int size() { return my_size; }
 
-    double& operator[](int i) const 
-    {
+    double& operator[](int i) const {
         assert(i >= 0 && i < my_size);
         return data[i];
     }
